@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            margin: auto;
+            width: 300px;
+            height: 300px;
+            background-color: yellow;
+            border: 10px dotted blanchedalmond;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 60px;
+            color: blueviolet
+        }
+
+        .btn {
+
+            color: aliceblue;
+            padding: 10px 16px;
+            border-radius: 5px;
+            border: none;
+            background-color: brown;
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        Dispatch
+    </div>
+    <div class="box">
+        <button class="btn" onclick="start()">Start</button>
+        <button class="btn" onclick="stop()">stop</button>
+
+    </div>
+    <script>
+        // let id;
+        // const start = () => {
+        //     id = setTimeout(() => {
+        //         document.querySelector(".main").innerHTML = '₹ 1000000'
+        //     }, 5000);
+        // }
+
+        // const stop = () => {
+        //     console.log(id);
+        //     clearTimeout(id)
+        // }
+
+        // let id;
+        // const start = () => {
+        //     id = setInterval(() => {
+        //         // document.querySelector(".main").innerHTML = '₹ 1000000'
+        //         alert("Hiiiiii")
+        //     }, 5000);
+        // }
+
+        // const stop = () => {
+        //     // console.log(id);
+        //     clearTimeout(id)
+        // }
+    </script>
+</body>
+
+</html>
